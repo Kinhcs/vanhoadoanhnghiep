@@ -1,0 +1,34 @@
+!DOCTYPE html
+html lang=vi
+head
+  meta charset=UTF-8 
+  meta name=viewport content=width=device-width, initial-scale=1.0 
+  titleQuiz Văn hóa doanh nghiệptitle
+  link rel=stylesheet href=style.css 
+head
+body
+  div class=quiz-container
+    h1Quiz Văn hóa doanh nghiệph1
+
+    div id=quiz-box
+      p id=question-numberp
+      h2 id=question-texth2
+
+      div id=answersdiv
+
+      button id=submit-btnNộp câu trả lờibutton
+      button id=next-btn style=display none;Câu tiếp theobutton
+
+      p id=feedbackp
+    div
+
+    div id=result-box style=display none;
+      h2Kết quảh2
+      p id=score-textp
+      button onclick=location.reload()Làm lạibutton
+    div
+  div
+
+  script src=script.jsscript
+body
+html
